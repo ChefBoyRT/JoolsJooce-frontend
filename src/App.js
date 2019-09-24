@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Container from './components/Container'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
+
 
 class App extends Component  {
   state = {
@@ -21,6 +23,7 @@ class App extends Component  {
         <NavBar />
         <h1>JooLS JooCE</h1>
         <Container stores={this.state.stores} />
+        <Footer />
       </div>
     )
   }
